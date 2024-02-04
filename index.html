@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script
+      src="https://kit.fontawesome.com/1a11e246e6.js"
+      crossorigin="anonymous"
+    ></script>
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Social Media Dashboard
+  Total Followers: 23,004
+
+  Dark Mode
+
+  
+
+  @nathanf
+  1987
+  Followers
+  12 Today
+
+  @nathanf
+  1044
+  Followers
+  99 Today
+
+  @realnathanf
+  11k
+  Followers
+  1099 Today
+
+  Nathan F.
+  8239
+  Subscribers
+  144 Today
+
+
+
+  Overview - Today
+
+  Page Views
+  87
+  3%
+
+  Likes
+  52
+  2%
+
+  Likes
+  5462
+  2257%
+
+  Profile Views
+  52k
+  1375%
+
+  Retweets
+  117
+  303%
+
+  Likes
+  507
+  553%
+
+  Likes
+  107
+  19%
+
+  Total Views
+  1407
+  12%
+   -->
+  <main class="light-theme">
+    <div class="row title">
+      <div class="text">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <div class="toggle-container row">
+          <span>Dark Mode</span>
+          <div class="toggle"><div class="circle"></div></div>
+
+      </div>
+    </div>
+    <div class="followers">
+      <div class="facebook follower col">
+        <div class="user-icon">
+          <i class="fa-brands fa-square-facebook"></i>
+          <span>@nathanf</span>
+        </div>
+        <p>
+          <b>1987</b><br>
+          Followers
+        </p>
+        <small><i class="fa-solid fa-caret-up"></i> 12 Today</small>
+      </div>
+      <div class="twitter follower col">
+        <div class="user-icon">
+          <i class="fa-brands fa-twitter"></i>
+          <span>@nathanf</span>
+        </div>
+        <p>
+          <b>1044</b><br>
+          Followers
+        </p>
+        <small><i class="fa-solid fa-caret-up"></i> 99 Today</small>
+      </div>
+      <div class="insta follower col">
+        <div class="user-icon">
+          <i class="fa-brands fa-instagram"></i>
+          <span>@nathanf</span>
+        </div>
+        <p>
+          <b>11K</b><br>
+          Followers
+        </p>
+        <small><i class="fa-solid fa-caret-up"></i> 1099 Today</small>
+      </div>
+      <div class="youtube follower col">
+        <div class="user-icon">
+          <i class="fa-brands fa-youtube"></i>
+          <span>Nathan F.</span>
+        </div>
+        <p>
+          <b>8239</b><br>
+          Subscribers
+        </p>
+        <small class="red"><i class="fa-solid fa-caret-down"></i> 144 Today</small>
+      </div>
+    </div>
+
+    <div class="overview">
+      <h2>Overview - Today</h2>
+      <div class="cards">
+        <div class="card col">
+          <div class="row">
+            <b>Page Views</b>
+            <i class="fa-brands fa-square-facebook"></i>
+          </div>
+          <div class="row">
+            <b>87</b>
+            <small><i class="fa-solid fa-caret-up"></i> 3%</small>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="row">
+            <b>Likes</b>
+            <i class="fa-brands fa-square-facebook"></i>
+          </div>
+          <div class="row">
+            <b>52</b>
+            <small class="red"><i class="fa-solid fa-caret-down"></i> 2%</small>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="row">
+            <b>Likes</b>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="row">
+            <b>5462</b>
+            <small><i class="fa-solid fa-caret-up"></i> 2257%</small>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="row">
+            <b>Profile Views</b>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="row">
+            <b>52K</b>
+            <small><i class="fa-solid fa-caret-up"></i> 1375%</small>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="row">
+            <b>Retweets</b>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="row">
+            <b>117</b>
+            <small><i class="fa-solid fa-caret-up"></i> 303%</small>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="row">
+            <b>Likes</b>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="row">
+            <b>107</b>
+            <small><i class="fa-solid fa-caret-up"></i> 553%</small>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="row">
+            <b>Likes</b>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="row">
+            <b>507</b>
+            <small class="red"><i class="fa-solid fa-caret-down"></i> 19%</small>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="row">
+            <b>Total Views</b>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="row">
+            <b>1407</b>
+            <small class="red"><i class="fa-solid fa-caret-down"></i> 12%</small>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </main>
+  <script>
+    let toggle = document.querySelector('.toggle');
+    let body = document.querySelector('body');
+    toggle.addEventListener('click',function(){
+      console.log("Toggle is clicked");
+      toggle.classList.toggle('on');
+      body.classList.toggle('dark-theme')
+    })
+  </script>
+</body>
+</html>
